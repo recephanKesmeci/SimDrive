@@ -1,0 +1,30 @@
+# Data & model artifacts
+data/
+*.pt
+*.onnx
+runs/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Unity (unity_project/) — keep Assets/Packages/ProjectSettings, ignore generated
+unity_project/[Ll]ibrary/
+unity_project/[Tt]emp/
+unity_project/[Oo]bj/
+unity_project/[Bb]uild/
+unity_project/[Bb]uilds/
+unity_project/[Ll]ogs/
+unity_project/[Uu]serSettings/
+*.csproj
+*.sln
+
+# OS / editor
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Claude settings
+.claude/settings.local.json
